@@ -44,7 +44,8 @@ Matrix::Matrix(std::vector<std::vector<int>> nums) //inits the contructor and ta
 
 /*
     function definition was given by the EECS348 lab github,
-    code under the function declaration is made by me
+    code under the function declaration is made by me but i was getting a warning when compiling my code and it was because i needed to use size_t
+    for my loop instead of an int which i learned through chatgpt because the matrix takes unsigned
     this function prints out the matrix by iterating through the rows and colums,
     then it prints out each individual data piece until it reaches the end of the row,
     then the next row starts and each data piece in that column is printed out
